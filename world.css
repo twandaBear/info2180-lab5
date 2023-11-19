@@ -30,7 +30,7 @@ img {
 .btn{
   display: flex;
   justify-content: center;  
-
+  gap: 20px;
 
 }
 
@@ -53,6 +53,10 @@ input {
   border-radius: 5px;
 }
 
+
+#city-btn{
+  background-color: rgb(69, 69, 177);
+}
 
 
 th {
