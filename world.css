@@ -1,1 +1,80 @@
 /* Add your own styles */
+
+
+header{
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+body{
+  background-color:rgb(54, 58, 62);
+}
+
+img {
+  background-color: transparent;
+  max-width: 250px;
+  margin-right: 10px;
+}
+
+
+.control-input{
+   display: flex; 
+  justify-content: center;
+}
+
+
+.btn{
+  display: flex;
+  justify-content: center;  
+
+
+}
+
+#lookup, #city-btn{
+  margin-bottom: 25px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  font-weight: 600;
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  border: none;
+  color: white;
+}
+input {
+  margin: 25px 0px;
+  border: none;
+  width: 700px;
+  padding:  12px;
+  border-radius: 5px;
+}
+
+
+
+th {
+  background-color: white;
+  padding: 12px;
+  
+}
+td {
+  border: 1px solid #ddd; 
+  padding: 12px;
+}
+
+tr:nth-child(even) {
+  background-color: gray;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+#result{
+  display: flex;
+  justify-content: center;
+}
